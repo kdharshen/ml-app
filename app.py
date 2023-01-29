@@ -22,4 +22,5 @@ def predict():
     return result
 
 if __name__ == '__main__':
+    print('app running')
     app.run( debug=True, port = 1234)
