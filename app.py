@@ -10,7 +10,7 @@ def predict():
     try:
         sample = data['input']
     except KeyError:
-        return jsonify({'error': 'No text sent'})
+        return jsonify({'error': 'No input sent'})
 
     sample = [sample]
     print(sample)
