@@ -1,6 +1,6 @@
 import pickle
 
-with open(r'model1.pickle', mode='rb') as fp:
+with open(r'model/model1.pickle', mode='rb') as fp:
     model = pickle.load(fp)
 
 def return_pred(inp):
