@@ -8,7 +8,7 @@ app = Flask(__name__)
 def predict():
     data = request.json
     try:
-        sample = data['text']
+        sample = data['input']
     except KeyError:
         return jsonify({'error': 'No text sent'})
 
